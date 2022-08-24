@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color1: #140f07;
+    --color2: #1f2d4f;
+    --color3: #5460a5;
+    --color4: #9d9afa;
+    --color5: #ffe2f4;
+}
+
+#contenedor{
+    background: var(--color5);
+    border: 1px solid red;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color2);
+    border-radius: 0px 0px 20px 20px;
+}
+
+#header p{
+    color: var(--color5);
+    font-family: verdana;
+    font-size: 20px;
+}
+
+
+#navBar{
+background-color: #F573DD;
+color: white;
+float: none;
+text-align:center;
+
+}
+
+
+#lefmenu{
+background-color: #CA5DDE;
+color: white;
+float: left;
+width: 20%;
+height: 100%;
+padding-bottom: 100%;
+background-image: url(file:///C:/Users/USUARIO/Pictures/jeidy/imagenes/manicure.jpg);
+}
+
+#contenido{
+background-color: #C372FC;
+color: white;
+float: left;
+width: 60%;
+text-align:center;
+
+
+
+}
+
+#rightmenu{
+background-color: #f698ba;
+color: white;
+float: left;
+width: 20%;
+
+padding-bottom: 100%;
+    background-image: url(file:///C:/Users/USUARIO/Pictures/jeidy/imagenes/manicure.jpg);
+
+
+}
+
+
+#footer{
+background-color: #D978DE;
+color: white;
+float: none;
+clear: both;
+font-family: arial;
+}
+
+.cabezera{
+list-style: none;
+padding: 0px;
+background: rgb(216, 149, 208);
+width: 100%;
+max-width: 100%;
+margin: auto;
+}
+
+.cabezera li a{
+text-decoration: none;
+color: white;
+padding: 20px;
+display: block;
+font-family: impat black;
+font-size: 22px;
+color: black;
+float: left;
+width: 70%;
+text-align:center;
+}
+
+.cabezera li{
+display: inline-block;
+text-align: center;
+}
+
+.cabezera li a:hover{
+background: beige;
+color: blue;
+}
+
+/**/
